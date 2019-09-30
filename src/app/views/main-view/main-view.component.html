@@ -1,0 +1,25 @@
+<div>
+  <form [formGroup]="parentForm">
+    <div>
+      <app-text-field
+        [appParentForm]="parentForm"
+        appFormControlName="firstName"
+        label="Firstname:"
+      ></app-text-field>
+    </div>
+    <div>
+      <app-text-field
+        [appParentForm]="parentForm"
+        appFormControlName="lastName"
+        label="Lastname:"
+      ></app-text-field>
+    </div>
+    <div>
+      <app-text-field
+        [appParentForm]="parentForm"
+        appFormControlName="email"
+        label="E-Mail:"
+      ></app-text-field>
+    </div>
+  </form>
+</div>
